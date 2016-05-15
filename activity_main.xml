@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.neerajdeshpande.myapplication.MainActivity">
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="My Nanodegree Apps"
+        android:textSize="22dp"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+    <Button
+        android:id="@+id/llLine"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="POPULAR MOVIES"
+        android:textColor="#D4E157"
+        android:background="#2E3D49"
+        android:onClick="popularMoviesToast"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="81dp"
+        />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text = "Stock Hawk"
+        android:id="@+id/button"
+        android:textColor="#D4E157"
+        android:background="#2E3D49"
+        android:onClick="stockHawkToast"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="81dp"
+         />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Build it Bigger"
+        android:id="@+id/button2"
+        android:textColor="#D4E157"
+        android:background="#2E3D49"
+        android:onClick="buildItBigger"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/button" />
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Make Your App Material"
+        android:id="@+id/button3"
+        android:textColor="#D4E157"
+        android:background="#2E3D49"
+        android:onClick="makeYourAppMaterial"
+        android:layout_below="@+id/button2"
+        android:layout_alignStart="@+id/button2"
+        android:layout_marginTop="55dp" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Go Ubiquitous"
+        android:id="@+id/button4"
+        android:textColor="#D4E157"
+        android:background="#2E3D49"
+        android:onClick="goUbiquitous"
+        android:layout_below="@+id/button3"
+        android:layout_alignStart="@+id/button3" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Capstone"
+        android:id="@+id/button5"
+        android:textColor="#D4E157"
+        android:background="#2E3D49"
+        android:onClick="capstone"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/button4" />
+</RelativeLayout>
+
